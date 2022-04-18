@@ -41,8 +41,8 @@ class TingoTangoPrueba(unittest.TestCase):
 
     def test_tingoTango_multiplo_retornaStr(self):
         #Arrange
-        self.numero1 = '5'
-        self.resultadoEsperado1 = 'Tango'
+        self.numero1 = 'a'
+        self.resultadoEsperado1 = None
         #Do
         self.resultadoActual1 = self.TT.textoTingoTango(self.numero1)
         #Assert

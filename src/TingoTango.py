@@ -5,7 +5,7 @@ class TingoTango:
                 numero = int(numero)
             except ValueError:
                 print("ERRO: ingresa un entero")
-
+                return None
         if (numero % 3 == 0) and (numero % 5 == 0):
             return 'TingoTango'
         if (numero % 3 == 0):
@@ -14,3 +14,4 @@ class TingoTango:
             return 'Tango'
         return str(numero)
 
+#https://forms.gle/KyuDY2DhUoNJgivY7
